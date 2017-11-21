@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 from django.contrib import messages
 from .forms import GradoForm
-from escuela.models import Grado, Materia
+from escuela.models import Grado, Materia, Imparte
 
 def grado_nuevo(request):
 
